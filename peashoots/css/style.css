@@ -1,0 +1,43 @@
+body {
+  background: url("http://content.pulse.ea.com/content/www-pvzgw2/en_US/news/balance-changes-for-plants-vs-zombies-garden-warfare-2/_jcr_content/featuredImage/renditions/rendition1.img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color:red;
+  font-size:90px;
+}
+
+
+.button {
+    border: 5px solid #383838;
+    background-color: white;
+    color: #383838;
+    padding: 20px 30px;
+    font-size: 5em;
+    text-decoration: none;
+    box-shadow: 15px 15px 80px #555;
+    font-family: 'Indie Flower', cursive;
+    animation-name: play;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 650px;  
+}
+  
+  @keyframes play {
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+  }
+
+.button:hover {
+  animation-duration: 0s;
+  background: purple;
+}
+
+
+  
+  
