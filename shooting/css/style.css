@@ -48,7 +48,8 @@ background-size: cover;}
 }
 
 #peashooter {
-  background-color: red;
+  background: url("http://beanbus.github.io/shooting/image/peashooter.png");
+  background-repeat: no-repeat;
   height: 400px;
   width: 300px;
   margin: 400px 0px 100px 10px;
