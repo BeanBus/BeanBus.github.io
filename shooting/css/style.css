@@ -47,44 +47,53 @@ background-size: cover;}
   color: #fff;
 }
 
+#pea {
+color: #e7cf68;
+font-size: 40px;
+font-family: Arial;
+
+}
+
 #peashooter {
-  background: url("http://beanbus.github.io/shooting/image/peashooter.png");
+  background: url("http://beanbus.github.io/shooting/image/Peashooter.png");
+  background-size: contain;
   background-repeat: no-repeat;
   height: 400px;
   width: 300px;
-  margin: 400px 0px 100px 10px;
+  margin: 450px 0px 100px 10px;
 }
 
 #ufo1 {
   position: absolute;
   width: 10px;
   height: 10px;
-  top: 250px;
-  left: 1000px;
+  top: auto;
+  left: 1500px;
   opacity: 1;
   transition-property: all;
-  transition-duration: 3s;
+  transition-duration: 9s;
   transition-timing-function: linear;
 }
 
 #ufo2 {
   width: 10px;
   height: 10px;
-  top: 265px;
-  left: 550px;
+  top: auto;
+  left: 1500px;
   position: absolute;
   transition-property: all;
-  transition-duration: 3s;
+  transition-duration: 7s;
   transition-timing-function: linear;
 }
 
 #ufo3 {
   width: 20px;
   height: 20px;
-  top: 507px;
-  left: 540px;
+  top: auto;
+  left: 1500px;
   position: absolute;
   transition-property: all;
-  transition-duration: 3s;
+  transition-duration: 5s;
   transition-timing-function: linear;
+
 }
