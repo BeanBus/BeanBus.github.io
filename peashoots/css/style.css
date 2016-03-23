@@ -2,6 +2,7 @@ body {
   background: url("http://content.pulse.ea.com/content/www-pvzgw2/en_US/news/balance-changes-for-plants-vs-zombies-garden-warfare-2/_jcr_content/featuredImage/renditions/rendition1.img.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 h1 {

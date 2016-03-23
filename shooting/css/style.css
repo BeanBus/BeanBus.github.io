@@ -1,0 +1,83 @@
+body {
+  background: url("BeanBus.github.io/shooting/image/background.jpeg");
+}
+
+.start {
+  font-size: 5em;
+  color: #fff;
+  font-family: impact;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  padding: 260px 404px;
+  box-shadow: 1px 1px 150px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.hud {
+  background: url("http://th05.deviantart.net/fs70/PRE/i/2011/340/3/1/delta_plus_hud_by_disastranagant-d4i6yyr.png");
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica, sans-serif;
+  color: #B7C3F3;
+}
+
+.hud p {
+  margin-left: 2%;
+  letter-spacing: 0.2em;
+  font-weight: 100;
+  font-size: .75em;
+}
+
+.hud span {
+  font-size: 0.5em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.clickables {
+  text-shadow: 1px 1px 10px #333;
+  position: absolute;
+  padding: 10px;
+  font-size: 2em;
+  color: #fff;
+}
+
+#ufo1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 250px;
+  left: 1000px;
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+#ufo2 {
+  width: 10px;
+  height: 10px;
+  top: 265px;
+  left: 550px;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
+
+#ufo3 {
+  width: 20px;
+  height: 20px;
+  top: 507px;
+  left: 540px;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+}
