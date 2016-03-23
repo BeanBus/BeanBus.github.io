@@ -1,6 +1,6 @@
 body {
-  background: url("BeanBus.github.io/shooting/image/background.jpeg");
-}
+  background: url("http://img03.deviantart.net/4e83/i/2013/027/c/c/everfree_forest_corridor_background_by_golliattaillog-d5t069n.jpg");
+background-size: cover;}
 
 .start {
   font-size: 5em;
@@ -18,8 +18,7 @@ body {
 }
 
 .hud {
-  background: url("http://th05.deviantart.net/fs70/PRE/i/2011/340/3/1/delta_plus_hud_by_disastranagant-d4i6yyr.png");
-  bottom: 0;
+ 
   left: 0;
   display: block;
   width: 100%;
