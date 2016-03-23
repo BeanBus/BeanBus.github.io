@@ -47,6 +47,13 @@ background-size: cover;}
   color: #fff;
 }
 
+#peashooter {
+  background-color: red;
+  height: 400px;
+  width: 300px;
+  margin: 400px 0px 100px 10px;
+}
+
 #ufo1 {
   position: absolute;
   width: 10px;
