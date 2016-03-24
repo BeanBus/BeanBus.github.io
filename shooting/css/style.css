@@ -5,16 +5,19 @@ background-size: cover;}
 .start {
   font-size: 5em;
   color: #fff;
-  font-family: impact;
+  font-family:'Shadows Into Light', cursive;
+  margin: 0 auto;
   position: absolute;
-  top: 1%;
-  left: 1%;
   padding: 260px 404px;
   box-shadow: 1px 1px 150px rgba(255, 255, 255, 0.3);
   display: inline-block;
   transition-property: all;
   transition-duration: 1s;
   transition-timing-function: linear;
+}
+
+#startcontain {
+  margin: 0 auto;
 }
 
 .hud {
@@ -50,24 +53,27 @@ background-size: cover;}
 #pea {
 color: #e7cf68;
 font-size: 40px;
-font-family: Arial;
+font-family: 'Shadows Into Light', cursive;
+text-align: center;
 
 }
 
 #peashooter {
+  position: relative;
   background: url("http://beanbus.github.io/shooting/image/Peashooter.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 400px;
-  width: 300px;
-  margin: 450px 0px 100px 10px;
+  width: 100%;
+  margin-top: 400px; 
+  z-index: -1;
 }
 
 #ufo1 {
   position: absolute;
   width: 10px;
   height: 10px;
-  top: auto;
+  top: 250px;
   left: 1500px;
   opacity: 1;
   transition-property: all;
@@ -78,7 +84,7 @@ font-family: Arial;
 #ufo2 {
   width: 10px;
   height: 10px;
-  top: auto;
+  top: 500px;
   left: 1500px;
   position: absolute;
   transition-property: all;
@@ -89,7 +95,7 @@ font-family: Arial;
 #ufo3 {
   width: 20px;
   height: 20px;
-  top: auto;
+  top: 260px;
   left: 1500px;
   position: absolute;
   transition-property: all;
